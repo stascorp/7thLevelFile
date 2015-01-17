@@ -1,0 +1,14 @@
+Changelog:
+
+v1.0
+- 7th Level file format understanding is totally finished, except some bytes in the file header and some resource types. Now we have entry table with resources and aliases (which isn't an actual resources)
+- Added ability to import and export from/to project directory for modding game resources
+- Added ability to save 7th Level binary executable files
+- Added ability to preview/play resources directly in program using ActiveMovie player
+v0.2
+- 7th Level file format updated, now we can see identifiers of resources
+- MIDI converter now can encode and decode from/to MIDI 0 format
+v0.1
+- Basic 7th Level file format understanding and reading/extracting only
+- ADPCM codec is fully functional with ability to decode and encode mono/stereo WAV files
+- MIDI converter can only decode game music to MIDI 0 format
